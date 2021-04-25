@@ -4,8 +4,11 @@
      font-family: arial;
      background-color: #5AA897;
      line-height: 1.5em;
-     }
-
+   }
+   h3{
+     font-size: 20px;
+     margin-left: 30px;
+   }
     header{
      background:#333;
      color:#fff;
@@ -19,16 +22,10 @@
      h2{
      padding-left: 120px;
      }
-     input{
-      width:50%;
 
-     }
     form{
     position: relative; left:80px;
-    input-align: left:120px;
-
-
-    }
+}
 
 
     label {
@@ -46,17 +43,16 @@ position:relative;
 height: 20px;
 flex: 0 0 200px;
 margin-left: 10px;
-max-length: 10px;
+width: 80px
 }
-
 
 span{
 font-size: 22px;
 
-background: #333;
-color: #fff;
-position: fixed;
 
+color: #333;
+text-decoration: underline;
+position: relative;
 left: 50%;
 bottom: 60%;
 margin-top: 10px;
@@ -64,15 +60,57 @@ margin-left: -100px;
 }
 
 .text-div{
-position:fixed;
-top: 34 %;
-left: 50%;
+margin-left: 400px;
 
-margin-left: -350px;
 }
 
-.utdanning{
-position: fixed;
-top: 70%;
+table {
+  border-collapse: separate;
+  border-spacing: 0 15px;
+  margin-left: 10px;
+}
+
+th {
+  background-color: #333;
+  color: white;
+}
+
+th,
+td {
+  text-align: center;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.year{
+  width: 200px;
+}
+.place{
+  width: 550px;
+
+}
+
+
+.subject{
+  width: 550px;
+}
+.inpYear{
+  width: 200px;
+  padding: 5px;
+
+
+
+}
+.inpPlace {
+  width: 550px;
+padding:5px;
+margin-left: 0px;
+
+
+}
+.inpSub{
+width: 550px;
+padding: 5px;
+margin-left: 0px;
 
 }
